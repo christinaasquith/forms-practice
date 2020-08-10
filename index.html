@@ -6,52 +6,109 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
+
+
 <body>
     <h1>Hello there: please apply to be my friend</h1>
-    <p>Please input your contact info: name, email, message, years you've known me</p> 
-        <section>
+    <p>Please input your contact info: name, email, message, years you've known me</p>
+    <section>
 
-            <label for="name">
-                <h3>What's your name?</h3>
+        <label for="name">
+            <h3>What's your name?</h3>
+        </label>
+        <input type="text" id="name" name="name">
+    </section>
+
+    <section>
+        <label for="email">
+            <h3>What's your email</h3>
+        </label>
+        <input type="text" id="name">
+    </section>
+
+    <label for="characteristics">
+        <h3>What top friendship qualities do you offer?</h3>
+    </label>
+    <input type="text"><br>
+
+    <label for="code">
+        <h3>Willingness to code with me?</h3>
+    </label>
+    <input type="range" min="0" max="5"><br>
+
+    <section>
+        <label for="message">
+            <h3>Pls rate yourself as my friend thus far?</h3>
+        </label>
+        <input type="range" min="1" max="10" id="name">
+
+    </section>
+
+    <section>
+        <label for="years">
+            <h3>Years of friendship experience?</h3>
+        </label>
+        <input type="number" id="years" step="5">
+    </section><br>
+
+    <section>
+        <label for="plans">
+            <h3>What plans of fun stuff will be enjoy together</h3>
             </label>
-            <input type="text" id="name" name="name">
-        </section>
+            <input type="text" id="plans">
+    </section>
 
-        <section>
-            <label for="email">
-                <h3>What's your email</h3>
-            </label>
-            <input type="text" id="name">
-        </section>
+    <section>
+            <h3> Pick your most awesome meal</h3>
+        
+            <label for="Chinese"> Chinese </label>
+        <input type="checkbox" id="favorite"
+        value="Chinese">
+        <br>
+        <label for="burritos">Burritos</label> 
+        <input id="burritos" type="checkbox" value="burritos">
+        <br>
 
-       <label for="characteristics">
-           <h3>What top friendship qualities do you offer?</h3>
-       </label>
-       <input type="text"><br>
+        <label for="Pizza">Pizza</label> 
+        <input id="pizza" type="checkbox" value="pizza">
+        <br>
 
-       <label for="code">
-           <h3>Willingness to code with me?</h3>
-       </label>
+        <label for="Pancakes">Pancakes</label>
+        <input id="pancakes" type="checkbox" value="pancakes">
+    </section>
+    <br>
 
-       <input type="range" min="0" max="5"><br>
+    <section>
+        <H3>How many other friends will you have </h3>
+            <br>
+            <input type="radio" id="more" value="1">
+            <label for="1">1</label>
+            <br>
+
+            <input type="radio" id="more" value="5">
+            <label for="5">5</label>
+            <br>
+
+            <input type="radio" id="more" value="7">
+            <label for="7">7</label>
+            <br>
+
+            <input type="radio" id="more" value="10">
+            <label for="10">10</label>
+            <br>
+
+            <input type="radio" id="more" value="100s">
+            <label for="100s">100s</label>
+            <br>
 
 
-        <section>
-            <label for="message">
-                <h3>Pls rate yourself as my friend thus far?</h3>
-            </label>
-            <input type="range" min="1" max="10" id="name">
 
-        </section>
 
-        <section>
-            <label for="years">
-                <h3>Years of friendship experience?</h3>
-            </label>
-            <input type="number" id="years" step="5">
-        </section><br>
+    </section>
 
-        <input type="submit">
+<h3><input type="submit"></h3>
+
+    
     </form>
 
 </body>
