@@ -8,8 +8,8 @@ body {
 
 .heather {
  
-width: 2000px;
-height:2000px;
+max-width: 10%;
+max-height:10%;
 padding-top:10px;
 
 }
