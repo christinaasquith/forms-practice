@@ -1,6 +1,15 @@
 body {
     color: purple;
     font-style: italic;
-    line-height: 0.5;
+    line-height:1.5;
+    font-size:18px;
     background-color: seashell;
+}
+
+.heather {
+ 
+width: 2000px;
+height:2000px;
+padding-top:10px;
+
 }
